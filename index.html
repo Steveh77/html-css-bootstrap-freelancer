@@ -10,36 +10,63 @@
     <title>Boorstrap Freelancer</title>
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <!-- nav -->
-        <div class="row d-flex align-items-center darkgrey">
-            <div class="col-12 d-flex justify-content-around">
+        <div class="row d-flex align-items-center darkgrey row-border">
+            <div class="col-12 d-flex justify-content-around col-border">
                 <h2 class="white m">START BOOTSTRAP</h2>
-                <h2 class="white m"><i class="bi bi-list"></i></h2>
+                <div class="white m f-size20">
+                    <i class="bi bi-list d-md-none"></i>
+                    <ul class="list-inline d-none d-md-block">
+                        <li class="list-inline-item">Portfolio</li>
+                        <li class="list-inline-item">About</li>
+                        <li class="list-inline-item">Contact</li>
+                      </ul>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
         <!-- start bootstrap -->
-        <div class="row h-500px light-green">
-            <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+        <div class="row h-500px light-green row-border">
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center col-border">
                 <div class="img d-flex justify-content-center align-items-center">img</div>
                 <h2>Start Bootstrap</h2>
-                <div class="col-7 d-flex justify-content-center">
-                    <h3>Graphic Artist -</h3>
-                    <h3>Web Designer -</h3>
-                    <h3>Illustrator</h3>
+                <div class="col-7 d-flex justify-content-center col-border">
+                    <div class="col-12 d-flex col-border">
+                        <div class="col-4 col-border"><h3>Graphic Artist -</h3></div>
+                        <div class="col-4 col-border"><h3>Web Designer -</h3></div>
+                        <div class="col-4 col-border"><h3>Illustrator</h3></div>
+
+                    </div>
+                    
                 </div>
             </div>
         </div>
-        <div class="row h-500px">
-            <div class="col-12 d-flex justify-content-center">
-                <h2>Portfolio</h2>
+        <!-- img -->
+        <div class="container">
+            <div class="row h-500px">
+                <div class="col-12 d-flex justify-content-center col-border">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-border h-100px cherry-red"></div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-border h-100px light-blue"></div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-border h-100px black"></div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-border h-100px blue"></div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-border h-100px dark-blue"></div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-border h-100px pink"></div>
             </div>
         </div>
+
+        <!-- about -->
 
 
     </main>
 </body>
 </html>
+
+
+
+
+

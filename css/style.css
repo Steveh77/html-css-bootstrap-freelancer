@@ -8,12 +8,23 @@
 .h-500px{
     height: 500px;
 }
+.h-100px{
+    height: 300px;
+}
 .img{
     width: 200px;
     height: 200px;
     background-color: blueviolet;
 }
-
+.row-border{
+    border: 2px solid black;
+}
+.col-border{
+    border: 2px solid red;
+}
+.f-size20{
+    font-size:25px ;
+}
 /* colors */
 .white{
     color: white;
@@ -24,4 +35,22 @@
 }
 .light-green{
     background-color: rgb(26,188,156);
+}
+.cherry-red{
+    background-color: rgb(186,75,99);
+}
+.light-blue{
+    background-color: rgb(30,164,182);
+}
+.blue{
+    background-color:rgb(28,131,193) ;
+}
+.dark-blue{
+    background-color:rgb(14,56,181) ;
+}
+.black{
+    background-color: rgb(20,15,15);
+}
+.pink{
+    background-color: rgb(204,178,163);
 }
