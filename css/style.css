@@ -1,0 +1,27 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* utils */
+.h-500px{
+    height: 500px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+/* colors */
+.white{
+    color: white;
+}
+.darkgrey{
+    background-color: rgb(44,62,80);
+    height: 100px;
+}
+.light-green{
+    background-color: rgb(26,188,156);
+}
