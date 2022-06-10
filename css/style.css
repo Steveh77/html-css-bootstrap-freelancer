@@ -23,12 +23,18 @@
     border: 1px solid white;
 }
 /* colors */
+.green{
+    color:rgb(26,188,156) ;
+}
 .white{
     color: white;
 }
 .darkgrey{
     background-color: rgb(44,62,80);
     height: 100px;
+}
+.light-grey{
+    background-color: rgb(58,84,109);
 }
 .light-green{
     background-color: rgb(26,188,156);
